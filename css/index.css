@@ -1,0 +1,152 @@
+body {
+  background: #627e8b;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+}
+
+img {
+  width: 240px;
+  border-radius: 20px 0px 0px 0px;
+  margin: 0;
+}
+
+header {
+  background: #d2cccc;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border: 1px solid #eaedf0;
+  border-bottom: none;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.info li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.info h2 {
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+}
+
+main .social li {
+  display: inline;
+  word-spacing: 10px;
+}
+
+main .social a {
+  text-decoration: none;
+  color: black;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+main .social a:hover {
+  color: #627e8b;
+}
+
+main .social {
+  background: #d2cccc;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #eaedf0;
+  border-radius: 0px 0px 20px 20px;
+  position: sticky;
+  top: 0;
+}
+
+main ul .social {
+  text-align: left;
+}
+
+main table {
+  width: 100%;
+}
+
+main table .work th {
+  padding: 3px;
+  border-bottom: 1px solid #eaedf0;
+}
+
+main table .work_2 td {
+  border-bottom: 1px solid black;
+}
+
+main .experience li {
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+main .experience {
+  background: #d2cccc;
+  text-align: left;
+  text-decoration-line: underline;
+  border: 1px solid #eaedf0;
+  border-radius: 20px;
+}
+
+main .achievements {
+  border: 1px solid #eaedf0;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+}
+
+main table .achievements_3 td {
+  border-bottom: 1px solid #eaedf0;
+}
+
+main table .achievements_4 td {
+  border-bottom: none;
+}
+
+main .achievements tr:nth-child(even) {
+  background: #d2cccc;
+}
+
+main .achievements_2 th {
+  padding: 3px;
+}
+
+main .hobbi {
+  display: flex;
+}
+
+main .hobbi p {
+  width: 50%;
+  margin-left: 24px;
+  text-align: left;
+  font-style: italic;
+  color: #d2cccc;
+}
+
+main .hobbi li {
+  text-align: left;
+  font-style: italic;
+}
+
+main .hobbi ol {
+  border: 1px solid #eaedf0;
+  background: #d2cccc;
+  border-radius: 20px;
+}
+
+footer p {
+  text-align: left;
+  font-size: 10px;
+}
+
+@keyframes example {
+  from {
+    color: black;
+  }
+  to {
+    color: #5d5d5d;
+  }
+}
